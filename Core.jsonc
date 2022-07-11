@@ -1,0 +1,1303 @@
+{
+"core": {
+	"prefix": "Section",
+	"body": [
+		"[core]"
+	],
+	"description": "核心"
+},
+"canBuild": {
+	"prefix": "Section",
+	"body": [
+		"[canBuild_]"
+	],
+	"description": "可以建造"
+},
+"graphics": {
+	"prefix": "Section",
+	"body": [
+		"[graphics]"
+	],
+	"description": "图像"
+},
+"attack": {
+	"prefix": "Section",
+	"body": [
+		"[attack]"
+	],
+	"description": "攻击"
+},
+"turret": {
+	"prefix": "Section",
+	"body": [
+		"[turret_]"
+	],
+	"description": "炮塔"
+},
+"名称": {
+	"prefix": "coreStringName",
+	"body": [
+		"name:"
+	],
+	"description": "名称"
+},
+"多名称": {
+	"prefix": "coreStringNameAlt",
+	"body": [
+		"altNames:"
+	],
+	"description": "多名称"
+},
+"纠错等级": {
+	"prefix": "coreFloatLevel",
+	"body": [
+		"strictLevel:"
+	],
+	"description": "纠错等级"
+},
+"价格": {
+	"prefix": "coreIntPrice",
+	"body": [
+		"price:"
+	],
+	"description": "价格"
+},
+"质量法": {
+	"prefix": "coreIntmass",
+	"body": [
+		"mass:"
+	],
+	"description": "质量法"
+},
+"科技等级": {
+	"prefix": "coreIntLevel",
+	"body": [
+		"techLevel:"
+	],
+	"description": "科技等级"
+},
+"建造速度": {
+	"prefix": "coreIntBS",
+	"body": [
+		"buildSpeed:"
+	],
+	"description": "建造速度"
+},
+"点触大小": {
+	"prefix": "coreIntRadius",
+	"body": [
+		"radius:"
+	],
+	"description": "点触大小"
+},
+"有死亡声音与痕迹": {
+	"prefix": "coreBoolBio",
+	"body": [
+		"isBio:"
+	],
+	"description": "有死亡声音与痕迹"
+},
+"是虫族": {
+	"prefix": "coreBoolBug",
+	"body": [
+		"isBug:"
+	],
+	"description": "是虫族"
+},
+"是建造者": {
+	"prefix": "coreBoolBuilder",
+	"body": [
+		"isBuilder:"
+	],
+	"description": "是建造者"
+},
+"流动花费资源": {
+	"prefix": "coreIntCost",
+	"body": [
+		"streamingCost:"
+	],
+	"description": "流动花费资源"
+},
+"只使用流动资源": {
+	"prefix": "coreBoolCost",
+	"body": [
+		"switchPriceWithStreamingCost:"
+	],
+	"description": "只使用流动资源"
+},
+"最大生命": {
+	"prefix": "coreIntH",
+	"body": [
+		"maxHp:"
+	],
+	"description": "最大生命"
+},
+"生命恢复速度": {
+	"prefix": "coreIntHSRR",
+	"body": [
+		"selfRegenRate:"
+	],
+	"description": "生命恢复速度"
+},
+"最大护盾值": {
+	"prefix": "coreIntS",
+	"body": [
+		"maxShield:"
+	],
+	"description": "最大护盾值"
+},
+"护盾值从零开始": {
+	"prefix": "coreBoolSAZ",
+	"body": [
+		"startShieldAtZero:"
+	],
+	"description": "护盾值从零开始"
+},
+"护盾回复速度": {
+	"prefix": "coreIntSR",
+	"body": [
+		"shieldRegen:"
+	],
+	"description": "护盾回复速度"
+},
+"能量值": {
+	"prefix": "coreIntE",
+	"body": [
+		"energyMax:"
+	],
+	"description": "能量值"
+},
+"能量值回复速度": {
+	"prefix": "coreIntER",
+	"body": [
+		"energyRegen: "
+	],
+	"description": "能量值回复速度"
+},
+"百分比初始能量值": {
+	"prefix": "coreFloatER",
+	"body": [
+		"energyStartingPercentage:"
+	],
+	"description": "百分比初始能量值"
+},
+"伤害减免": {
+	"prefix": "coreIntarmour",
+	"body": [
+		"armour:"
+	],
+	"description": "伤害减免"
+},
+"最低伤害": {
+	"prefix": "coreIntAMDTK",
+	"body": [
+		"armourMinDamageToKeep:"
+	],
+	"description": "最低伤害"
+},
+"存在时消耗资源": {
+	"prefix": "coreIntRWA",
+	"body": [
+		"borrowResourcesWhileAlive:"
+	],
+	"description": "存在时消耗资源"
+},
+"获得资源": {
+	"prefix": "coreIntGR",
+	"body": [
+		"generation_resources:"
+	],
+	"description": "获得资源"
+},
+"获得资源条件": {
+	"prefix": "coreIogicGRA",
+	"body": [
+		"generation_active:"
+	],
+	"description": "获得资源条件"
+},
+"获得资源间隔": {
+	"prefix": "coreIogicGRD",
+	"body": [
+		"generation_delay:"
+	],
+	"description": "获得资源间隔"
+},
+"隐藏在沙盒列表": {
+	"prefix": "coreBoolSIE",
+	"body": [
+		"showInEditor:"
+	],
+	"description": "隐藏在沙盒列表"
+},
+"显示名称": {
+	"prefix": "coreStringName",
+	"body": [
+		"displayText:"
+	],
+	"description": "显示名称"
+},
+"单位描述": {
+	"prefix": "coreStringDD",
+	"body": [
+		"displayDescription:"
+	],
+	"description": "单位描述"
+},
+"显示大小": {
+	"prefix": "coreIntRadius",
+	"body": [
+		"displayRadius:"
+	],
+	"description": "显示大小"
+},
+"攻击显示范围": {
+	"prefix": "coreIntRadius",
+	"body": [
+		"uiTargetRadius:"
+	],
+	"description": "攻击显示范围"
+},
+"护盾显示范围": {
+	"prefix": "coreIntRadius",
+	"body": [
+		"shieldRenderRadius:"
+	],
+	"description": "护盾显示范围"
+},
+"隐藏护盾": {
+	"prefix": "coreBoolSHide",
+	"body": [
+		"shieldDisplayOnlyDeflection:"
+	],
+	"description": "隐藏护盾"
+},
+"护盾动画速度": {
+	"prefix": "coreIntSSpeed",
+	"body": [
+		"shieldDeflectionDisplayRate:"
+	],
+	"description": "护盾动画速度"
+},
+"禁用碰撞体积": {
+	"prefix": "coreBoolCollisions",
+	"body": [
+		"disableAllUnitCollisions:"
+	],
+	"description": "禁用碰撞体积"
+},
+"在小地图上显示": {
+	"prefix": "coreBoolMap",
+	"body": [
+		"showOnMinimap:"
+	],
+	"description": "在小地图上显示"
+},
+"在敌人小地图上显示": {
+	"prefix": "coreBoolMap",
+	"body": [
+		"showOnMinimapToEnemies:"
+	],
+	"description": "在敌人小地图上显示"
+},
+"混合所选单位显示的动作": {
+	"prefix": "coreBoolbuzhidaoyoushenmeyong",
+	"body": [
+		"showActionsWithMixedSelectionIfOtherUnitsHaveTag:"
+	],
+	"description": "混合所选单位显示的动作"
+},
+"是建筑": {
+	"prefix": "coreBoolBuilding",
+	"body": [
+		"isBuilding:"
+	],
+	"description": "是建筑"
+},
+"建筑阻挡范围": {
+	"prefix": "coreIntsFP",
+	"body": [
+		"footprint:"
+	],
+	"description": "建筑阻挡范围"
+},
+"建筑覆盖范围": {
+	"prefix": "coreIntsFPF",
+	"body": [
+		"constructionFootprint:"
+	],
+	"description": "建筑覆盖范围"
+},
+"建筑显示覆盖范围": {
+	"prefix": "coreIntsFPFS",
+	"body": [
+		"displayFootprint:"
+	],
+	"description": "建筑显示覆盖范围"
+},
+"建筑左右偏移": {
+	"prefix": "coreIntBFOX",
+	"body": [
+		"buildingToFootprintOffsetX:"
+	],
+	"description": "建筑左右偏移"
+},
+"建筑上下偏移": {
+	"prefix": "coreIntBFOY",
+	"body": [
+		"buildingToFootprintOffsetY:"
+	],
+	"description": "建筑上下偏移"
+},
+"只能建造在资源池上": {
+	"prefix": "coreBoolOnlyRes",
+	"body": [
+		"placeOnlyOnResPool:"
+	],
+	"description": "只能建造在资源池上"
+},
+"自动建造速度": {
+	"prefix": "coreIntBR",
+	"body": [
+		"selfBuildRate:"
+	],
+	"description": "自动建造速度"
+},
+"不计入单位上线": {
+	"prefix": "coreBoolBR",
+	"body": [
+		"ignoreInUnitCapCalculation:"
+	],
+	"description": "不计入单位上线"
+},
+"引用另一个单位": {
+	"prefix": "coreCopy",
+	"body": [
+		"copyFrom:"
+	],
+	"description": "引用另一个单位"
+},
+"不加载此单位": {
+	"prefix": "coreBoolLoad",
+	"body": [
+		"dont_load:"
+	],
+	"description": "不加载此单位"
+},
+"替换单位": {
+	"prefix": "coreReplace",
+	"body": [
+		"overrideAndReplace:"
+	],
+	"description": "替换单位"
+},
+"在地图上生成单位": {
+	"prefix": "coreMapSpawn",
+	"body": [
+		"onNewMapSpawn:"
+	],
+	"description": "在地图上生成单位"
+},
+"产生于空资源池并且为中立": {
+	"prefix": "MapSpawn",
+	"body": [
+		"emptyResourcePools_asNeutral"
+	],
+	"description": "产生于空资源池并且为中立"
+},
+"空的或已占用资源池并且为中立": {
+	"prefix": "MapSpawn",
+	"body": [
+		"emptyOrOccupiedResourcePools_asNeutral"
+	],
+	"description": "空的或已占用资源池并且为中立"
+},
+"地图中心并且为中立": {
+	"prefix": "MapSpawn",
+	"body": [
+		"mapCenter_asNeutral"
+	],
+	"description": "地图中心并且为中立"
+},
+"地图中心且给予每个玩家 ": {
+	"prefix": "MapSpawn",
+	"body": [
+		"mapCenter_eachActiveTeam"
+	],
+	"description": "地图中心且给予每个玩家 "
+},
+"玩家初始位置给予每个玩家 ": {
+	"prefix": "MapSpawn",
+	"body": [
+		"spawnPoint_eachActiveTeam"
+	],
+	"description": "玩家初始位置给予每个玩家 "
+},
+"单位大小倍数": {
+	"prefix": "coreFloatSize",
+	"body": [
+		"globalScale:"
+	],
+	"description": "单位大小倍数"
+},
+"禁止建造": {
+	"prefix": "coreFloatLock",
+	"body": [
+		"isLocked:"
+	],
+	"description": "禁止建造"
+},
+"禁核后禁用": {
+	"prefix": "coreFloatLockofNuke",
+	"body": [
+		"isLockedIfGameModeNoNuke:"
+	],
+	"description": "禁核后禁用"
+},
+"单位为实验单位": {
+	"prefix": "coreBoolExper",
+	"body": [
+		"experimental:"
+	],
+	"description": "单位为实验单位"
+},
+"保持中立": {
+	"prefix": "coreBoolNeutral",
+	"body": [
+		"stayNeutral:"
+	],
+	"description": "保持中立"
+},
+"建造后为中立": {
+	"prefix": "coreBoolNeutral",
+	"body": [
+		"createNeutral:"
+	],
+	"description": "建造后为中立"
+},
+"标签": {
+	"prefix": "coreStringTags",
+	"body": [
+		"tags:"
+	],
+	"description": "标签"
+},
+"创建自定义变量": {
+	"prefix": "coreStringUnitMemory",
+	"body": [
+		"defineUnitMemory:"
+	],
+	"description": "创建自定义变量"
+},
+"可查看地块数量": {
+	"prefix": "coreIntWarsight",
+	"body": [
+		"fogOfWarSightRange:"
+	],
+	"description": "可查看地块数量"
+},
+"未建造完成可查看地块数量": {
+	"prefix": "coreIntWarsight",
+	"body": [
+		"fogOfWarSightRangeWhileNotBuilt:"
+	],
+	"description": "未建造完成可查看地块数量"
+},
+"软碰撞效果": {
+	"prefix": "coreBoolCol",
+	"body": [
+		"softCollisionOnAll:"
+	],
+	"description": "软碰撞效果"
+},
+"无法被维修": {
+	"prefix": "coreBoolRepair",
+	"body": [
+		"isUnrepairableUnit:"
+	],
+	"description": "无法被维修"
+},
+"无法被选择": {
+	"prefix": "coreBoolUnselectable",
+	"body": [
+		"isUnselectable:"
+	],
+	"description": "无法被选择"
+},
+"无法被选择并被攻击": {
+	"prefix": "coreBoolUnselectable",
+	"body": [
+		"isUnselectableAsTarget:"
+	],
+	"description": "无法被选择并被攻击"
+},
+"是初始单位": {
+	"prefix": "coreBoolStarting",
+	"body": [
+		"isPickableStartingUnit:"
+	],
+	"description": "是初始单位"
+},
+"游戏开始时从高空落下": {
+	"prefix": "coreBoolFalling",
+	"body": [
+		"startFallingWhenStartingUnit"
+	],
+	"description": "游戏开始时从高空落下"
+},
+"攻击指令音效": {
+	"prefix": "coreBoolOrder",
+	"body": [
+		"soundOnAttackOrder:"
+	],
+	"description": "攻击指令音效"
+},
+"移动指令音效": {
+	"prefix": "coreBoolOrder",
+	"body": [
+		"soundOnMoveOrder:"
+	],
+	"description": "移动指令音效"
+},
+"选择指令音效": {
+	"prefix": "coreBoolOrder",
+	"body": [
+		"soundOnNewSelection:"
+	],
+	"description": "选择指令音效"
+},
+"无法被瞄准": {
+	"prefix": "coreBoolUnselectable",
+	"body": [
+		"canNotBeDirectlyAttacked:"
+	],
+	"description": "无法被瞄准"
+},
+"无法操控": {
+	"prefix": "coreBoolUnselectable",
+	"body": [
+		"canNotBeGivenOrdersByPlayer:"
+	],
+	"description": "无法操控"
+},
+"只可被带有指定标签的单位攻击": {
+	"prefix": "coreBoolTags",
+	"body": [
+		"canOnlyBeAttackedByUnitsWithTags:"
+	],
+	"description": "只可被带有指定标签的单位攻击"
+},
+"生命值为0时不死亡": {
+	"prefix": "coreBoolDeath",
+	"body": [
+		"disableDeathOnZeroHp:"
+	],
+	"description": "生命值为0时不死亡"
+},
+"占用载具格数": {
+	"prefix": "coreIntTransport",
+	"body": [
+		"transportSlotsNeeded:"
+	],
+	"description": "占用载具格数"
+},
+"运载格数": {
+	"prefix": "coreIntTransport",
+	"body": [
+		"maxTransportingUnits:"
+	],
+	"description": "运载格数"
+},
+"只可运输带有标签的单位": {
+	"prefix": "coreIntTransport",
+	"body": [
+		"transportUnitsRequireTag:"
+	],
+	"description": "只可运输带有标签的单位"
+},
+"只可运输指定移动方式的单位": {
+	"prefix": "coreTypesTransport",
+	"body": [
+		"transportUnitsRequireMovementType:"
+	],
+	"description": "只可运输指定移动方式的单位"
+},
+"无移动方式": {
+	"prefix": "Move",
+	"body": [
+		"NONE"
+	],
+	"description": "无移动方式"
+},
+"陆地": {
+	"prefix": "Move",
+	"body": [
+		"Land"
+	],
+	"description": "陆地"
+},
+"建筑": {
+	"prefix": "Move",
+	"body": [
+		"Building"
+	],
+	"description": "建筑"
+},
+"空中": {
+	"prefix": "Move",
+	"body": [
+		"Air"
+	],
+	"description": "空中"
+},
+"水中": {
+	"prefix": "Move",
+	"body": [
+		"Water"
+	],
+	"description": "水中"
+},
+"两栖": {
+	"prefix": "Move",
+	"body": [
+		"Hover"
+	],
+	"description": "两栖"
+},
+"地面且可跨过悬崖": {
+	"prefix": "Move",
+	"body": [
+		"Over_Cliff"
+	],
+	"description": "地面且可跨过悬崖"
+},
+"两栖且可跨过悬崖": {
+	"prefix": "Move",
+	"body": [
+		"Over_Cliff_Water"
+	],
+	"description": "两栖且可跨过悬崖"
+},
+"不运输空中与水中单位": {
+	"prefix": "coreBoolTransport",
+	"body": [
+		"transportUnitsBlockAirAndWaterUnits:"
+	],
+	"description": "不运输空中与水中单位"
+},
+"保留载具建造的单位": {
+	"prefix": "coreLogicTransport",
+	"body": [
+		"transportUnitsKeepBuiltUnits:"
+	],
+	"description": "保留载具建造的单位"
+},
+
+"卸载单位条件": {
+	"prefix": "coreLogicBoolTransport",
+	"body": [
+		"transportUnitsCanUnloadUnits:"
+	],
+	"description": "卸载单位条件"
+},
+"显示卸载按钮": {
+	"prefix": "coreLogicBoolTransport",
+	"body": [
+		"transportUnitsAddUnloadOption:"
+	],
+	"description": "显示卸载按钮"
+},
+"卸载间隔": {
+	"prefix": "coreIntTransport",
+	"body": [
+		"transportUnitsUnloadDelayBetweenEachUnit:"
+	],
+	"description": "卸载间隔"
+},
+"载具内的单位随载具死亡": {
+	"prefix": "coreBoolTransport",
+	"body": [
+		"transportUnitsKillOnDeath:"
+	],
+	"description": "载具内的单位随载具死亡"
+},
+"运输单位治疗速率": {
+	"prefix": "coreIntTransport",
+	"body": [
+		"transportUnitsHealBy:"
+	],
+	"description": "运输单位治疗速率"
+},
+"禁止运载其它运载单位": {
+	"prefix": "coreBoolTransport",
+	"body": [
+		"transportUnitsBlockOtherTransports:"
+	],
+	"description": "禁止运载其它运载单位"
+},
+"中立时可运载任何队伍单位": {
+	"prefix": "coreBoolTransport",
+	"body": [
+		"whileNeutralTransportAnyTeam:"
+	],
+	"description": "中立时可运载任何队伍单位"
+},
+"运载单位时转换为单位队伍": {
+	"prefix": "coreBoolTransport",
+	"body": [
+		"whileNeutralConvertToTransportedTeam:"
+	],
+	"description": "运载单位时转换为单位队伍"
+},
+"卸载后恢复中立": {
+	"prefix": "coreBoolTransport",
+	"body": [
+		"convertToNeutralIfNotTransporting:"
+	],
+	"description": "卸载后恢复中立"
+},
+"转换队伍时运载单位是否保持原队伍": {
+	"prefix": "coreBoolTransport",
+	"body": [
+		"transportUnitsOnTeamChangeKeepCurrentTeam:"
+	],
+	"description": "转换队伍时运载单位是否保持原队伍"
+},
+"载具格需求量小于载具时只占用一格载具格格": {
+	"prefix": "coreBoolTransport",
+	"body": [
+		"transportUnitsEachUnitAlwaysUsesSingleSlot:"
+	],
+	"description": "载具格需求量小于载具时只占用一格载具格格"
+},
+"运载单位保持原有的路径点": {
+	"prefix": "coreBoolTransport",
+	"body": [
+		"transportUnitsKeepWaypoints:"
+	],
+	"description": "运载单位保持原有的路径点"
+},
+"回收速率": {
+	"prefix": "coreIntResource",
+	"body": [
+		"resourceRate:"
+	],
+	"description": "回收速率"
+},
+"回收具有标签的单位获得的资源": {
+	"prefix": "coreStringResource",
+	"body": [
+		"similarResourcesHaveTag:"
+	],
+	"description": "回收具有标签的单位获得的资源"
+},
+"同时回收得单位的最大值": {
+	"prefix": "coreIntResource",
+	"body": [
+		"resourceMaxConcurrentReclaimingThis:"
+	],
+	"description": "同时回收得单位的最大值"
+},
+"回收的资源": {
+	"prefix": "coreStringIntResource",
+	"body": [
+		"reclaimPrice:"
+	],
+	"description": "回收的资源"
+},
+"可以回收资源": {
+	"prefix": "coreBoolResource",
+	"body": [
+		"canReclaimResources:"
+	],
+	"description": "可以回收资源"
+},
+"自动搜索可回收资源范围": {
+	"prefix": "coreIntResource",
+	"body": [
+		"canReclaimResourcesNextSearchRange: "
+	],
+	"description": "自动搜索可回收资源范围"
+},
+"仅可回收带有特定标签的资源": {
+	"prefix": "coreStringResource",
+	"body": [
+		"canReclaimResourcesOnlyWithTags:"
+	],
+	"description": "仅可回收带有特定标签的资源"
+},
+"仅可回收带有特定标签的单位": {
+	"prefix": "coreStringResource",
+	"body": [
+		"canReclaimUnitsOnlyWithTags:"
+	],
+	"description": "仅可回收带有特定标签的单位"
+},
+"资源回收速度倍率": {
+	"prefix": "coreIntResource",
+	"body": [
+		"resourceReclaimMultiplier:"
+	],
+	"description": "资源回收速度倍率"
+},
+"可以修复建筑": {
+	"prefix": "coreBoolRepair",
+	"body": [
+		"canRepairBuildings:"
+	],
+	"description": "可以修复建筑"
+},
+"可以修复单位": {
+	"prefix": "coreBoolRepair",
+	"body": [
+		"canRepairUnits:"
+	],
+	"description": "可以修复单位"
+},
+"只可修复带有标签的单位": {
+	"prefix": "coreBoolRepair",
+	"body": [
+		"canRepairUnitsOnlyWithTags:"
+	],
+	"description": "只可修复带有标签的单位"
+},
+"自动修复范围内的单位": {
+	"prefix": "coreBoolRepair",
+	"body": [
+		"autoRepair:"
+	],
+	"description": "自动修复范围内的单位"
+},
+"修复范围": {
+	"prefix": "coreIntRepair",
+	"body": [
+		"nanoRange:"
+	],
+	"description": "修复范围"
+},
+"修复速度": {
+	"prefix": "coreIntRepair",
+	"body": [
+		"nanoRepairSpeed:"
+	],
+	"description": "修复速度"
+},
+"建造速度2": {
+	"prefix": "coreIntBuild",
+	"body": [
+		"nanoBuildSpeed:"
+	],
+	"description": "建造速度"
+},
+"回收不完整建筑速度": {
+	"prefix": "coreIntunBuild",
+	"body": [
+		"nanoUnbuildSpeed:"
+	],
+	"description": "回收不完整建筑速度"
+},
+"回收普通单位速度": {
+	"prefix": "coreIntunBuild",
+	"body": [
+		"nanoReclaimSpeed:"
+	],
+	"description": "回收普通单位速度"
+},
+"回收为近战算法": {
+	"prefix": "coreBoolunBuild",
+	"body": [
+		"nanoRangeForReclaimIsMelee:"
+	],
+	"description": "回收为近战算法"
+},
+"修复为近战算法": {
+	"prefix": "coreBoolRepair",
+	"body": [
+		"nanoRangeForRepairIsMelee:"
+	],
+	"description": "修复为近战算法"
+},
+"维修范围": {
+	"prefix": "coreIntRepair",
+	"body": [
+		"nanoRangeForRepair:"
+	],
+	"description": "维修范围"
+},
+"回收范围": {
+	"prefix": "coreIntUnBuild",
+	"body": [
+		"nanoRangeForReclaim:"
+	],
+	"description": "回收范围"
+},
+"生产速度倍率": {
+	"prefix": "coreIntBuild",
+	"body": [
+		"nanoFactorySpeed:"
+	],
+	"description": "生产速度倍率"
+},
+"临时增加建造范围": {
+	"prefix": "coreBoolBuild",
+	"body": [
+		"extraBuildRangeWhenBuildingThis:"
+	],
+	"description": "临时增加建造范围"
+},
+"生产或卸载左右偏移": {
+	"prefix": "coreIntExit",
+	"body": [
+		"exit_x:"
+	],
+	"description": "生产或卸载出现的位置(左右)"
+},
+"生产或卸载上下偏移": {
+	"prefix": "coreIntExit",
+	"body": [
+		"exit_y:"
+	],
+	"description": "生产或卸载出现的位置(上下)"
+},
+"生产或卸载方向偏移": {
+	"prefix": "coreIntExit",
+	"body": [
+		"exit_dirOffset:"
+	],
+	"description": "生产或卸载时方向偏移"
+},
+"生产或卸载高度偏移": {
+	"prefix": "coreIntExit",
+	"body": [
+		"exit_heightOffset:"
+	],
+	"description": "生产或卸载高度偏移"
+},
+"生产或卸载时移动量": {
+	"prefix": "coreIntExit",
+	"body": [
+		"exit_moveAwayAmount:"
+	],
+	"description": "生产或卸载时移动量"
+},
+"生产或卸载时无视父单位": {
+	"prefix": "coreBoolExit",
+	"body": [
+		"exitHeightIgnoreParent:"
+	],
+	"description": "生产或卸载时无视父单位"
+},
+"建造建筑时删除自身": {
+	"prefix": "coreBoolDie",
+	"body": [
+		"dieOnConstruct:"
+	],
+	"description": "建造建筑时删除自身"
+},
+"能量值为0时删除自身": {
+	"prefix": "coreBoolDie",
+	"body": [
+		"dieOnZeroEnergy:"
+	],
+	"description": "能量值为0时删除自身"
+},
+"死亡碎片量": {
+	"prefix": "coreIntDie",
+	"body": [
+		"numBitsOnDeath:"
+	],
+	"description": "死亡碎片量"
+},
+"死亡核爆": {
+	"prefix": "coreBoolDie",
+	"body": [
+		"nukeOnDeath:"
+	],
+	"description": "死亡核爆"
+},
+"死亡核爆范围": {
+	"prefix": "coreIntDie",
+	"body": [
+		"nukeOnDeathRange:"
+	],
+	"description": "死亡核爆范围"
+},
+"死亡核爆伤害": {
+	"prefix": "coreIntDie",
+	"body": [
+		"nukeOnDeathDamage:"
+	],
+	"description": "死亡核爆伤害"
+},
+"禁核后不会爆炸": {
+	"prefix": "coreBoolDie",
+	"body": [
+		"nukeOnDeathDisableWhenNoNuke:"
+	],
+	"description": "禁核后不会爆炸"
+},
+"死亡后发射的抛射体": {
+	"prefix": "coreBoolDie",
+	"body": [
+		"fireTurretXAtSelfOnDeath:"
+	],
+	"description": "死亡后发射的抛射体"
+},
+"死亡产生爆炸效果": {
+	"prefix": "coreBoolDie",
+	"body": [
+		"explodeOnDeath:"
+	],
+	"description": "死亡产生爆炸效果"
+},
+"死亡后坠落地面": {
+	"prefix": "coreBoolDie",
+	"body": [
+		"explodeOnDeathGroundCollosion:"
+	],
+	"description": "死亡后坠落地面"
+},
+"死亡爆炸类型": {
+	"prefix": "coreDieEffect",
+	"body": [
+		"explodeTypeOnDeath:"
+	],
+	"description": "死亡爆炸类型"
+},
+"非常小": {
+	"prefix": "explodeTypeOnDeath:",
+	"body": [
+		"verysmall"
+	],
+	"description": "非常小"
+},
+"小": {
+	"prefix": "explodeTypeOnDeath:",
+	"body": [
+		"small"
+	],
+	"description": "小"
+},
+"正常": {
+	"prefix": "explodeTypeOnDeath:",
+	"body": [
+		"normal"
+	],
+	"description": "正常"
+},
+"大": {
+	"prefix": "explodeTypeOnDeath:",
+	"body": [
+		"large"
+	],
+	"description": "大"
+},
+"大单位": {
+	"prefix": "explodeTypeOnDeath:",
+	"body": [
+		"largeUnit"
+	],
+	"description": "大单位"
+},
+"建筑2": {
+	"prefix": "explodeTypeOnDeath:",
+	"body": [
+		"building"
+	],
+	"description": "建筑"
+},
+"有冲击波和烟雾的建筑物": {
+	"prefix": "explodeTypeOnDeath:",
+	"body": [
+		"buildingNoShockwaveOrSmoke"
+	],
+	"description": "有冲击波和烟雾的建筑物"
+},
+"大建筑": {
+	"prefix": "explodeTypeOnDeath:",
+	"body": [
+		"verylargeBuilding"
+	],
+	"description": "大建筑"
+},
+"死亡特效": {
+	"prefix": "coreRefDie",
+	"body": [
+		"effectOnDeath:"
+	],
+	"description": "死亡特效"
+},
+"撞击地面后产生的特效": {
+	"prefix": "coreRefDie",
+	"body": [
+		"effectOnDeathGroundCollosion:"
+	],
+	"description": "撞击地面后产生的特效"
+},
+"死亡后的产生单位": {
+	"prefix": "coreUnitDie",
+	"body": [
+		"unitsSpawnedOnDeath:"
+	],
+	"description": "死亡后的产生单位"
+},
+"死亡后的产生单位为击杀方队伍": {
+	"prefix": "coreBoolDie",
+	"body": [
+		"unitsSpawnedOnDeath_setToTeamOfLastAttacker:"
+	],
+	"description": "死亡后的产生单位为击杀方队伍"
+},
+"无死亡痕迹": {
+	"prefix": "coreBoolDie",
+	"body": [
+		"hideScorchMark:"
+	],
+	"description": "无死亡痕迹"
+},
+"死亡音效": {
+	"prefix": "coreStringDie",
+	"body": [
+		"soundOnDeath:"
+	],
+	"description": "死亡音效"
+},
+"未建造完成时的死亡特效": {
+	"prefix": "coreRefDie",
+	"body": [
+		"effectOnDeathIfUnbuilt:"
+	],
+	"description": "未建造完成时的死亡特效"
+},
+"动作触发间隔": {
+	"prefix": "coreTimeAction",
+	"body": [
+		"autoTriggerCooldownTime:"
+	],
+	"description": "动作触发间隔"
+},
+"允许高占用CPU": {
+	"prefix": "coreBoolAction",
+	"body": [
+		"autoTriggerCooldownTime_allowDangerousHighCPU:"
+	],
+	"description": "允许高占用CPU"
+},
+"自动触发检查间隔": {
+	"prefix": "coreAction",
+	"body": [
+		"autoTriggerCheckRate:"
+	],
+	"description": "自动触发检查间隔"
+},
+"每帧": {
+	"prefix": "autoTriggerCheckRate:",
+	"body": [
+		"everyFrame"
+	],
+	"description": "每帧"
+},
+"每4帧": {
+	"prefix": "autoTriggerCheckRate:",
+	"body": [
+		"every4Frames"
+	],
+	"description": "每4帧"
+},
+"每8帧": {
+	"prefix": "autoTriggerCheckRate:",
+	"body": [
+		"every8Frames"
+	],
+	"description": "每8帧"
+},
+"是": {
+	"prefix": "bool",
+	"body": [
+		"true"
+	],
+	"description": "是"
+},
+"否": {
+	"prefix": "bool",
+	"body": [
+		"false"
+	],
+	"description": "否"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
